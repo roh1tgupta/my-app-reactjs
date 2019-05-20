@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 // import HooksAPI from './hooksapi';
-// import Form from './References';
-import Prom from './promises';
+import Form from './References';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Prom />, document.getElementById('root'));
+ReactDOM.render(<Form />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
